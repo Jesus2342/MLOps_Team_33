@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/162721614181560767/41bcdad2ee0c43518bbd5f74c9dda66c/artifacts
+deleted_time: 1728702447348
+end_time: 1728611659953
+entry_point_name: ''
+experiment_id: '162721614181560767'
+lifecycle_stage: deleted
+run_id: 41bcdad2ee0c43518bbd5f74c9dda66c
+run_name: Support Vector Classifier
+run_uuid: 41bcdad2ee0c43518bbd5f74c9dda66c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728611655169
+status: 3
+tags: []
+user_id: josedejesuspena

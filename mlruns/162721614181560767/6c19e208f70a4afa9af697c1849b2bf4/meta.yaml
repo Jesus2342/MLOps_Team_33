@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/162721614181560767/6c19e208f70a4afa9af697c1849b2bf4/artifacts
+deleted_time: 1728702447330
+end_time: 1728612263553
+entry_point_name: ''
+experiment_id: '162721614181560767'
+lifecycle_stage: deleted
+run_id: 6c19e208f70a4afa9af697c1849b2bf4
+run_name: XGBoost
+run_uuid: 6c19e208f70a4afa9af697c1849b2bf4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728612258270
+status: 3
+tags: []
+user_id: josedejesuspena
