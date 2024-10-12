@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/162721614181560767/ad933449999c425a84d6fbf4677649d2/artifacts
+deleted_time: 1728702447344
+end_time: 1728612258196
+entry_point_name: ''
+experiment_id: '162721614181560767'
+lifecycle_stage: deleted
+run_id: ad933449999c425a84d6fbf4677649d2
+run_name: Random Forest n_estimators=100
+run_uuid: ad933449999c425a84d6fbf4677649d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728612250454
+status: 3
+tags: []
+user_id: josedejesuspena

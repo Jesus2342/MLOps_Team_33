@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/162721614181560767/b9a8ce62c5c3480580448a9c480638df/artifacts
+end_time: 1728703813288
+entry_point_name: ''
+experiment_id: '162721614181560767'
+lifecycle_stage: active
+run_id: b9a8ce62c5c3480580448a9c480638df
+run_name: Multinomial Logistic Regression
+run_uuid: b9a8ce62c5c3480580448a9c480638df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728703808573
+status: 3
+tags: []
+user_id: josedejesuspena
