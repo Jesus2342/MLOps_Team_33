@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/162721614181560767/1136745952954821b15497cc50036f48/artifacts
+deleted_time: 1728702447330
+end_time: 1728612272634
+entry_point_name: ''
+experiment_id: '162721614181560767'
+lifecycle_stage: deleted
+run_id: 1136745952954821b15497cc50036f48
+run_name: K-Nearest Neighbors
+run_uuid: 1136745952954821b15497cc50036f48
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728612268263
+status: 3
+tags: []
+user_id: josedejesuspena
