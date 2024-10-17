@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/179613695927727662/de6e7452ff164d409f4f9d86f59b6398/artifacts
+deleted_time: 1729012504285
+end_time: 1728937268581
+entry_point_name: ''
+experiment_id: '179613695927727662'
+lifecycle_stage: deleted
+run_id: de6e7452ff164d409f4f9d86f59b6398
+run_name: Multinomial Logistic Regression
+run_uuid: de6e7452ff164d409f4f9d86f59b6398
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728937267491
+status: 3
+tags: []
+user_id: mekteck

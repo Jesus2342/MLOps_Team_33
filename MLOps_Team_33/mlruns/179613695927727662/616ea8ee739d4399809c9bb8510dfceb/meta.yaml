@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/179613695927727662/616ea8ee739d4399809c9bb8510dfceb/artifacts
+deleted_time: 1729012504285
+end_time: 1728937267480
+entry_point_name: ''
+experiment_id: '179613695927727662'
+lifecycle_stage: deleted
+run_id: 616ea8ee739d4399809c9bb8510dfceb
+run_name: XGBoost
+run_uuid: 616ea8ee739d4399809c9bb8510dfceb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728937266299
+status: 3
+tags: []
+user_id: mekteck
