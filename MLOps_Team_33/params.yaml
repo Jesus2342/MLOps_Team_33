@@ -5,6 +5,9 @@ data:
   # data loading
   dataset_arff: 'data/raw/CEE_DATA.arff'
 
+target:
+  column: 'Performance'
+
 training:
   # training, hyperparams
 

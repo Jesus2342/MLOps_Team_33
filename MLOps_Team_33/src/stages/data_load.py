@@ -9,8 +9,9 @@ def data_load(config_path: Text) -> pd.DataFrame:
         config = yaml.safe_load(config_file)
     
         data, meta = arff.loadarff(config['data']['dataset_arff'])
+        df = pd.DataFrame(data).map(lambda x: x.decode('utf-8') if isinstance(x, bytes) else x) #Encoding from byte to string
 
-    return pd.DataFrame(data)
+    return df
 
 if __name__ == '__main__':
 
