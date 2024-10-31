@@ -120,7 +120,7 @@ def test_log_model_metrics():
     # Set experiment and start MLflow run
     mlflow.set_tracking_uri("http://3.84.228.208:5000")
     mlflow.set_experiment("Test the log_model_metrics function 4")
-    with mlflow.start_run(run_name="Test Run") as run:
+    with mlflow.start_run(run_name="RandomForestClassifier") as run:
         log_model_metrics(report)
 
     # Check if metrics were logged
@@ -154,9 +154,7 @@ def test_log_experiment_results():
         ("XGBClassifier", model_xgb, {'n_estimators': 100, 'max_depth': 3})
     ]
     results_per_model = [report_rf, report_xgb]
-
+    
     # Check if the metrics were logged
-    client = log_experiment_results(experiments, results_per_model)
-    run_id = run.info.run_id  # Retrieve the run ID from the run context
-    metrics = client.get_run(run_id).data.metrics
+    metrics = log_experiment_results(experiments, results_per_model)
     assert len(metrics) > 0, "Metrics were not logged properly!"

@@ -35,7 +35,7 @@ def log_experiment_results(experiments, results_per_model):
     for i, (model_name, model, parameters) in enumerate(experiments):
         report = results_per_model[i]
         
-        with mlflow.start_run(run_name=model_name):
+        with mlflow.start_run(run_name=model_name) as run:
             for param_name, param_value in parameters.items():
                 mlflow.log_param(param_name, param_value)
             
@@ -50,4 +50,8 @@ def log_experiment_results(experiments, results_per_model):
             else:
                 mlflow.sklearn.log_model(model, "model")
 
-    return mlflow.tracking.MlflowClient()
+            run_id = run.info.run_id
+
+    client = mlflow.tracking.MlflowClient()
+    
+    return client.get_run(run_id).data.metrics
